@@ -2,7 +2,7 @@ pub use plotters::prelude::*;
 use nalgebra::{DVector, Matrix2};
 use plotters::{backend::BitMapBackend, coord::Shift, drawing::DrawingArea};
 
-pub const MAKE_GIF : bool       = false;
+pub const MAKE_GIF : bool       = true;
 pub const MARGIN   : u32        = 50;
 pub const WIDTH    : u32        = 1000;
 pub const HEIGHT   : u32        = 1000;
